@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form in HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <h1>SignUp</h1>
-    <form>
-        <label for="uname">Name</label>
-        <input type="text" id="uname" name="username" /> <br />
+    <form action="./success.html">
+        <label for="uname">
+            <i class="fa-solid fa-user"></i>
+        </label>
+        <input type="text" id="uname" name="username" placeholder="Enter Your Name" /> <br />
         <label for="text" >Email</label>
-        <input type="email" id="text" name="email" /> <br />
-        <label for="pass">Password</label>
-        <input type="password" id="pass" /> <br/>
-        <label>DOB</label>
-        <input type="date" /><br />
-        <input type="color" name="" id=""> <br />
+        <input type="email" id="text" name="email" placeholder="Enter Your Email" /> <br />
+        <label for="pass">
+            <i class="fa-solid fa-lock"></i>
+        </label>
+        <input type="password" id="pass" placeholder="Enter Your Password" /> <br/>
+        <!-- <label>DOB</label> -->
+        <!-- <input type="date" /><br /> -->
+        <!-- <input type="color" name="" id=""> <br /> -->
         <label for="">Gender</label>
-        <input type="radio" name="gender" id="genM"><label for="genM">Man</label>
-        <input type="radio" name="gender" id="genW"><label for="genW">Women</label>
-        <input type="radio" name="gender" id="">Others <br/>
+        <input type="radio" name="gender" id="genM" value="Man"><label for="genM">Man</label>
+        <input type="radio" name="gender" id="genW" value="Woman"><label for="genW">Women</label>
+        <input type="radio" name="gender" id="grnO" value="Other">Others <br/>
 
-        <input type="checkbox" /> Hindi
-        <input type="checkbox" /> English
-        <input type="checkbox" /> Urdu
-        <input type="checkbox" /> Farshi <br />
+        <input type="checkbox" name="lang1" value="Hindi" /> Hindi
+        <input type="checkbox" name="lang2" value="English" /> English
+        <input type="checkbox" name="lang3" value="Urdu"/> Urdu
+        <input type="checkbox" name="lang4" value="Farshi"/> Farshi <br />
+
+        <input type="file" /> <br />
         <button>Sign Up</button>
     </form>
+    <script src="./script.js"></script>
 </body>
 </html>
