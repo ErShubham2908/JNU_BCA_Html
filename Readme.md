@@ -235,9 +235,10 @@ In HTML, there's a distinction between how tags are used depending on whether th
 
 **Q1.** Create a form using HTML, form contain Name, Email, Password, Gender (Male, Female, Other), fav Language (HTML, CSS, JavScript, React JS) and Submit Button.
 
-**Q2.** Create a form - contain Name, email, password, DOB.
+**Q2.** Create a 5*5 Table, and add colspan, rowspan, cellspacing and cellpadding.
 
-**Q3.** creaet a profile using HTML, profile contain student Name, Education, DOB, Address and P-size Photo. detail about your education in detail, address in detail, hobby, interesst, skill, technology you know, project you completed in school and college.
+
+**Q3.** create a profile using HTML, profile contain student Name, Education, DOB, Address and P-size Photo. detail about your education in detail, address in detail, hobby, interesst, skill, technology you know, project you completed in school and college.
 
 
 ## Email : shubham.kumar@imaginxp.com
