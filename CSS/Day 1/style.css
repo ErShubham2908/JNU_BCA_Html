@@ -1,0 +1,93 @@
+/* Universal selector */
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: red;
+
+} */
+
+/* Group Selector */
+/* h1, p, div{
+    font-size: 40px;
+} */
+
+/* tag selector */
+
+/* h1{
+    color: aqua;
+} */
+
+/* id selector - # */
+
+/* #heading_one{
+    font-style: italic;
+    color: aqua;
+}
+
+#heading_two{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+} */
+
+/* .heading{
+    font-size: 32px;
+    font-weight: bold;
+} */
+
+
+/* p{
+    box-sizing:border-box;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+} */
+
+/* span{ */
+    /* box-sizing: content-box; */
+    /* width: 350px;
+    height: 300px;
+    padding: 20px;
+    border: 20px solid red;
+    margin: 20px;
+}
+
+div{
+    box-sizing: border-box;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    border: 20px solid grey;
+    margin: 20px;
+} */
+
+/* div{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px solid black; 
+    border-width: 5px;
+    border-style: dotted;
+    border-color: cyan;
+} */
+
+.c1{
+    width: 300px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 150px;
+}
+
+.c2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid violet;
+    border-radius: 50%;
+    /* background-color: grey; */
+}
+
+body{
+    background-color: black;
+}
