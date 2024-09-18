@@ -73,7 +73,7 @@ div{
     border-color: cyan;
 } */
 
-.c1{
+/* .c1{
     width: 300px;
     height: 200px;
     border: 10px solid black;
@@ -85,9 +85,38 @@ div{
     height: 200px;
     border: 5px solid violet;
     border-radius: 50%;
-    /* background-color: grey; */
+    background-color: grey;
+} */
+
+/* body{
+    background-color: black;
+} */
+
+/* 
+.c1{
+    box-sizing: border-box;
+    width: 150px;
+    height: 130px;
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+} */
+
+h1{
+    font-size: 40px;
+    color: #ff0000;
+    font-family: "Handjet", sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
-body{
-    background-color: black;
+/* h2{
+    font-weight: 900;
 }
+
+div{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+} */
