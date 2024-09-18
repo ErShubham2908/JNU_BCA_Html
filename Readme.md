@@ -359,7 +359,7 @@ The CSS box model is a fundamental concept in web design that defines how elemen
 ## Phone No: 9560203004 
 
 
-# Name of Student who's Submitted Project
+# Project Submitted by - 
 ## 1. Nisha Kumawat
 ## 2. Yogesh Kumawat
 ## 3. Asmyl Choudhary
